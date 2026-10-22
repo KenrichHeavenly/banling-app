@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Banling: Privacy Policy</title>
+  <meta name="description" content="Banling has no accounts, analytics, ads or tracking. Everything runs on your Mac, except the optional Explain feature.">
+  <link rel="icon" href="../assets/icon-512.png">
+  <link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+  <header>
+    <img class="icon" src="../assets/icon-512.png" alt="Banling app icon" style="width:88px;height:88px">
+    <h1>Privacy Policy</h1>
+    <p class="tagline"><span class="zh">伴灵</span> Banling for Mac</p>
+    <nav><a href="../">Support</a> · <a href="#contact">Contact</a></nav>
+  </header>
+
+  <main>
+    <p><em>Last updated: 22 October 2026</em></p>
+    <p>Banling is a Mac app that shows pinyin, meanings and translations for Chinese text on your screen, and helps you study the words you meet. It is made by Kenrich Heavenly Sandria ("I").</p>
+
+    <h2>The short version</h2>
+    <p>Banling has <strong>no accounts, no analytics, no ads and no tracking</strong>. Everything it does happens on your Mac. The one exception is the optional <strong>Explain</strong> feature, which is off until you add your own Anthropic API key, and which sends only what's described below, only when you press it.</p>
+
+    <h2>What stays on your Mac</h2>
+    <ul>
+      <li><strong>Text you read.</strong> With your permission (Accessibility, and optionally Screen Recording for text inside images), Banling reads the text under your pointer or in your selection, looks it up in its built-in dictionary and shows a card. That text is never sent anywhere, and it is stored only if you save a word (see below).</li>
+      <li><strong>Text inside images (OCR).</strong> Banling looks at a small area around your pointer and recognises the characters on your Mac. Images are never saved or sent.</li>
+      <li><strong>Translation.</strong> Sentences are translated by Apple's on-device Translation framework.</li>
+      <li><strong>Speech.</strong> Words and sentences are spoken with your Mac's built-in voices.</li>
+      <li><strong>Your study data.</strong> Words you save, the sentence and app you found them in, your review history and your settings are stored on your Mac, inside Banling's own container. They leave your Mac only if you export them yourself (Anki export or backup) to a place you choose.</li>
+      <li><strong>Recordings.</strong> In Shadowing, Banling uses the microphone only while you press Record, to compare your tones and pace. Recordings stay on your Mac.</li>
+    </ul>
+
+    <h2>What leaves your Mac: Explain (optional)</h2>
+    <p>If you add your own Anthropic API key in Settings and press <strong>Explain</strong> on a card, Banling sends that word, its pinyin and the sentence it appeared in to Anthropic's API (api.anthropic.com) to get a short explanation. Your API key is stored in your Mac's Keychain and is sent only to Anthropic. Anthropic handles that request under its own terms and <a href="https://www.anthropic.com/legal/privacy">privacy policy</a>. Nothing is sent if you never press Explain.</p>
+
+    <h2>Children</h2>
+    <p>Banling does not knowingly collect any personal information from anyone, including children.</p>
+
+    <h2>Changes</h2>
+    <p>If this policy changes, the new version will be posted on this page with a new date.</p>
+
+    <h2 id="contact">Contact</h2>
+    <div class="contact">
+      <p>Questions about privacy: <a href="mailto:kenrich.heavenly@gmail.com?subject=Banling%20privacy">kenrich.heavenly@gmail.com</a></p>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2026 Kenrich Heavenly Sandria · <a href="../">Banling support</a></p>
+  </footer>
+</body>
+</html>

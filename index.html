@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Banling: Support</title>
+  <meta name="description" content="Banling (伴灵) is a menu bar app for reading Chinese on your Mac: pinyin, meanings and an on-device translation for any word you point at. Help, shortcuts and contact.">
+  <link rel="icon" href="assets/icon-512.png">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header>
+    <img class="icon" src="assets/icon-512.png" alt="Banling app icon: Mò, a small ink drop with eyes">
+    <h1><span class="zh">伴灵</span>Banling</h1>
+    <p class="tagline">Read Chinese in any app on your Mac.</p>
+    <nav><a href="#start">Getting started</a> · <a href="#shortcuts">Shortcuts</a> · <a href="#faq">Questions</a> · <a href="#contact">Contact</a> · <a href="privacy/">Privacy</a></nav>
+  </header>
+
+  <figure class="hero">
+    <img src="assets/01-hover.jpg" width="1600" height="1000" alt="A reading page with the word 银行 highlighted and Banling's card below it: yínháng, bank, and the sentence translated on-device">
+  </figure>
+
+  <main>
+    <p>Rest your pointer on Chinese in any app and a small card shows the word with pinyin, tone colours and English meanings, plus the whole sentence translated on your Mac. Select a sentence for pinyin over every word. Save what's new and review it later in Study. Mò, a little ink drop, follows your pointer and reads along with you.</p>
+
+    <div class="shots">
+      <img src="assets/02-select.jpg" width="1600" height="1000" alt="A selected sentence with pinyin above every word and an on-device translation">
+      <img src="assets/05-review.jpg" width="1600" height="1000" alt="Study, Review: a tone drill for 把">
+    </div>
+
+    <h2 id="start">Getting started</h2>
+    <ol>
+      <li>Open Banling. It lives in the <strong>menu bar</strong> (the ink-drop icon), not in the Dock.</li>
+      <li>Allow <strong>Accessibility</strong> when asked (System Settings → Privacy &amp; Security → Accessibility). Banling needs it to read the text under your pointer.</li>
+      <li>Rest the pointer on a Chinese word for a moment. Hold <kbd>⇧</kbd> to open the card into the study view, or select a sentence for pinyin over every word.</li>
+    </ol>
+
+    <h2 id="shortcuts">Shortcuts</h2>
+    <table>
+      <tr><th>Shortcut</th><th>Action</th></tr>
+      <tr><td><kbd>⌃⌥H</kbd></td><td>Turn Banling on or off</td></tr>
+      <tr><td><kbd>⌃⌥J</kbd></td><td>Read what's under the pointer now (uses OCR for images)</td></tr>
+      <tr><td><kbd>⌃⌥S</kbd></td><td>Open Study</td></tr>
+      <tr><td><kbd>⌃⌥A</kbd> <kbd>⌃⌥D</kbd> <kbd>⌃⌥C</kbd> <kbd>⌃⌥P</kbd> <kbd>⌃⌥K</kbd></td><td>Speak, Save, Copy, Pin, Mark known (while a card is showing)</td></tr>
+      <tr><td><kbd>⇧</kbd> (hold)</td><td>Expand the card</td></tr>
+      <tr><td><kbd>Esc</kbd></td><td>Close the card</td></tr>
+    </table>
+    <p>You can change them in Settings → Shortcuts.</p>
+
+    <h2 id="faq">Questions</h2>
+    <h3>No card appears.</h3>
+    <p>Check that Banling is on (<kbd>⌃⌥H</kbd>) and that it's allowed under System Settings → Privacy &amp; Security → Accessibility. If you just updated the app, switch it off and on again in that list.</p>
+    <h3>It doesn't read text in images or some apps.</h3>
+    <p>Allow <strong>Screen Recording</strong> (System Settings → Privacy &amp; Security → Screen &amp; System Audio Recording), then press <kbd>⌃⌥J</kbd> over the text. macOS may ask you to relaunch Banling first.</p>
+    <h3>The translation line says a download is needed.</h3>
+    <p>Open Banling's Settings → Reading and download Apple's Chinese → English language pack. It's a one-time download.</p>
+    <h3>Is my reading private?</h3>
+    <p>Yes. The dictionary, text reading, OCR, speech and translation all run on your Mac. Nothing you read leaves it unless you press <strong>Explain</strong>, an optional feature that uses your own Anthropic API key. Read the <a href="privacy/">privacy policy</a>.</p>
+    <h3>Can I take my words to Anki?</h3>
+    <p>Yes. In Study → Vocabulary, use Export for Anki. You can also back up and restore everything from Settings.</p>
+
+    <h2 id="contact">Contact</h2>
+    <div class="contact">
+      <p>Questions, bugs or ideas: <a href="mailto:kenrich.heavenly@gmail.com?subject=Banling">kenrich.heavenly@gmail.com</a></p>
+    </div>
+    <p>Please include your macOS version and, for a reading problem, the app you were reading in.</p>
+  </main>
+
+  <footer>
+    <p>© 2026 Kenrich Heavenly Sandria · <a href="privacy/">Privacy policy</a></p>
+    <p>Dictionary: <a href="https://www.mdbg.net/chinese/dictionary?page=cc-cedict">CC-CEDICT</a>, licensed <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>. Mac and macOS are trademarks of Apple Inc.</p>
+  </footer>
+</body>
+</html>
